@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="en"> 
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <!-- Sarlavha - Headings -->
+     <h1>heading 1</h1>
+     <h2>heading 2</h2>
+     <h3>heading 3</h3>
+     <h4>heading 4</h4>
+     <h5>heading 5</h5>
+     <h6>heading 6</h6>
+    <!-- Sarlavha - Headings web sahifada sarlavha ko'rsatish uchun mo'ljallangan maxsus taglar -->
+
+    <!-- Text turlari  - text turlari 18 ta buladi  -->
+     <p>text</p>
+     <i>text</i>
+     <em>text</em>
+     <cite>text</cite>
+     <address>text</address>
+     <b>text</b>
+     <strong>text</strong>
+     <small>text</small>
+     <ins>text</ins>
+     <del>text</del>
+     <q>text</q>
+     <mark>text</mark>
+     <sub>text</sub>
+     <sup>text</sup>
+     <blockquote>text</blockquote>
+     <bdo dir="rtl">text</bdo>
+     <abbr title="aklc">text</abbr>
+     <pre>text</pre>
+
+    <!-- Input - bu foydalanuvchidan ma’lumot kiritish uchun ishlatiladigan HTML tegi.
+Masalan: ism, parol, email, fayl, tugma va boshqalar — hammasi <input> orqali olinadi. Inputning 22 ta turi bor -->
+    <input type="text">
+    <input type="color">
+    <input type="number">
+    <input type="month">
+    <input type="week">
+    <input type="date">
+    <input type="time">
+    <input type="datetime">
+    <input type="email">
+    <input type="password">
+    <input type="reset">
+    <input type="range">
+    <input type="submit">
+    <input type="button">
+    <input type="radio">
+    <input type="checkbox">
+    <input type="search">
+    <input type="file">
+    <input type="hidden">
+    <input type="image">
+    <input type="tel">
+    <input type="url">
+
+    <!-- Form - bizga foydalanuvchining hamma malumotlarini bittada olish uchun kerak -->
+
+    <!-- Placeholder - userga nima yozishi kerakligini bildiradi
+    Misol uchun: -->
+    <input type="text" placeholder="Ism kiriting">
+    <!-- Label ham foydalanuvchiga nima yozishi kerakligini bildiradi -->
+    <!-- textarea - inputga qaraganda katta joy bo'ladi va asosan commentariya uchun ishlatiladi -->
+
+    <p>Lorem - O'zidan so'z chiqarib beradi </p>
+    <!-- Rasm joylash -->
+     <img src="logo.img" alt="Bu yerda logo bor">
+    <!-- Audio joylash -->
+     <audio src="audio.mp3" controls autoplay></audio>
+    <!-- Video joylash -->
+     <video src="video.mp4" controls autoplay></video>
+
+     <p>Lorem ipsum  <br> br 1 qator pasga tushurish uchun yani joy ochadi</p>
+     <p>Lorem ipsum <hr> hr iliment tagiga chiziq tortib beradi</p>
+
+    <!-- Link -->
+      <a href="bu yerga link yoziladi" target="_blank">target blank qushilsa linkni yangi sahifada ochadi va eskisi ham qoladi</a>
+
+    <!--Listlar - 2 xil kurinishi bor -->
+     <!-- Ol - Qanaqa suz yozsa ham suzboshi raqam buladi
+     Ul - Qanaqa suz yozsa ham suzbochi nuqta buladi
+     Li - esa ol yoki ul ning ichida yoziladi barcha suzlar li ning ichida buladi -->
+    <!-- Misol -->
+     <ul>
+        <li>Home</li>
+        <li>About</li>
+        <li>Contact</li>
+     </ul>
+
+     <!-- Html da elementlar Inline va Block qismlarga bulinadi
+      - Block ilimetlar doimo yangi qatordan boshlanadi va uziga berilgan
+      kenglikni maksimal tarzda to'ldiradi.
+      - Inline yangi qatordan boshlanmaydi va faqatgina o'ziga kerak bo'lgan joyni oladi.
+      Bu buyicha yanada kuproq malumotni ijtimoiy tarmoqlardan olishingiz mumkin -->
+     
+      <!-- TABLE -->
+       <!-- - Table asosan jadval tuzishda kerak bo'ladi
+       Thead - yani table head jadvalning bosh qismi
+       Tr - yani table row bosh qismida qator yaratib beradi
+       th - yani table head data jadval boshi malumoti, foydalanuvchiga
+       nima yozishi kerakligini bildiradi.
+       Tepadagi kodlar jadvalning bosh qismida ishlatiladi -->
+
+       <!-- Jadvalning tanasi
+       - tbody - yani table body jadvalning tanasi
+       tr - qator yaratib beradi
+       td - table data jadval malumoti th ga o'xshash -->
+       <!-- Namuna: -->
+        <table>
+            <thead>
+                <tr>
+                    <th>Ism</th>
+                    <th>Familiya</th>
+                    <th>Yosh</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>Shokhjahon</td>
+                    <td>Qalandarov</td>
+                    <td>17</td>
+                </tr>
+            </tbody>
+        </table>
+
+        <!-- FORMS -->
+          <!-- - form bu - foydalanuvchidan malum bir malumotlarni olib uni
+          serverga qayta ishlash uchun jo'natadi
+          Namuna: -->
+          <form>
+            <label for="username">text</label>
+            <input type="text" name="suz" id="username">
+          </form>
+</body>
+</html>
